@@ -39,21 +39,21 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="{{asset('images/1.jpg')}}" alt="First slide" height="400px;" style="background-color:black;opacity:.7">
+      <img class="d-block w-100" src="{{asset('images/1.jpg')}}" alt="First slide" height="450px;" style="background-color:black;opacity:.7">
       <div class="carousel-caption d-none d-md-block">
     <h2>Build something new</h2>
     <p>we help you to build</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/2.jpg')}}" alt="Second slide" height="400px;" style="background-color:black;opacity:.7">
+      <img class="d-block w-100" src="{{asset('images/2.jpg')}}" alt="Second slide" height="450px;" style="background-color:black;opacity:.7">
       <div class="carousel-caption d-none d-md-block">
     <h2>Secure and Reliable</h2>
     <p>strong security assurance</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="{{asset('images/3.jpg')}}" alt="Third slide" height="400px;"style="background-color:black;opacity:.7">
+      <img class="d-block w-100" src="{{asset('images/3.jpg')}}" alt="Third slide" height="450px;"style="background-color:black;opacity:.7">
       <div class="carousel-caption d-none d-md-block">
     <h2>Analyze your business</h2>
     <p>analize and improve your business in a smart way</p>
@@ -70,11 +70,11 @@
   </a>
 </div>
 
-<br><br><br>
 
 
-    <h3 class="text-center" id="services">Our Services</h3>
-
+    <div id="services" style="margin-top:90px;"></div>
+    <h3 class="text-center" >Our Services</h3>
+    <div id="services" style="margin-top:90px;"></div>
     <div class="row" style="margin-top:20px;">
         <div class="col-md-4">
             <div class="card  ml-auto mr-auto" style="width: 18rem; height:18rem;">
@@ -330,12 +330,11 @@
 
 </div>
 
-
-<br><br><br>
-
+<div id="contactus">hh</div>
+<div style="margin-top:120px;"></div>
 
 <div>
-<h2 class="text-center" id="contactus" style="color:white;">Have a question ?</h2>
+<h2 class="text-center" style="color:white;">Have a question ?</h2>
 <h1 class="text-center" style="color:white;text-wieght:bold">01788-635837</h1>
 </div>
 
@@ -362,7 +361,8 @@
 
       <div class="col-md-5">
           <h4 style="color:white"><strong>Get in Touch</strong></h4>
-        <form>
+        <form method="post" action="/">
+          @csrf
           <div class="form-group">
             <input type="text" class="form-control" name="name" value="" placeholder="Name">
           </div>
@@ -456,7 +456,7 @@
 			</div>	
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p>DevMaze is a Registered  Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p>DevsMaze is a Registered  Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
 					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.devmaze.com" target="_blank">DevMaze</a></p>
 				</div>
 				</hr>
